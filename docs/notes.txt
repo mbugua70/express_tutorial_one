@@ -1,0 +1,19 @@
+// Express.js
+
+// express.js is a backend framework(unopionated and minmalist framework)
+
+// BASICS ROUTE HANDLING
+// Handling requests/ routes is simple
+// app.get(), app.post(), app.put(), app.delete()
+//access to params, query strings, url parts
+// has router to store routes in seperate files and export them
+// pass incoming data with Body Parser.
+
+// MIDDLEWARE FUNCTION
+// they are function that are used to access the response and requests object.
+
+- they can be used to
+ . exercute the code
+ .make changes to the requests
+ . end response cycle
+ .call next middleware in the stuck
